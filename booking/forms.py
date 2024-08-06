@@ -10,3 +10,9 @@ class BookingForm(forms.ModelForm):
     class Meta:
         model = Booking
         fields = ['flight']
+
+
+class FlightForm(forms.ModelForm):
+    class Meta:
+        model = Flight
+        fields = ['flight_number', 'departure_city', 'arrival_city', 'departure_time', 'arrival_time']

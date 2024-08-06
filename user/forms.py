@@ -3,7 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 from .models import Profile
 
-ROLE_CHOICES = (("USER", "user"), ("ADMIN", "admin"))
+ROLE_CHOICES = (("USER", "USER"), ("ADMIN", "ADMIN"))
 
 
 class SignUpForm(UserCreationForm):

@@ -2,7 +2,7 @@
 from django.db import models    
 from django.contrib.auth.models import User
 
-ROLE_CHOICES = (("USER", "user"), ("ADMIN", "admin"))
+ROLE_CHOICES = (("USER", "USER"), ("ADMIN", "ADMIN"))
 
 
 class Profile(models.Model):
